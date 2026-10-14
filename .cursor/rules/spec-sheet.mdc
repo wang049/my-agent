@@ -1,0 +1,8 @@
+---
+description: 规格书抄表项目约束
+alwaysApply: true
+---
+
+本仓库是本机规格书抄表项目。优先读 README.md 与 AGENTS.md。
+
+硬规则：规格书与抽取只走本机 Ollama（127.0.0.1），禁止发往公网模型或 api.krow.cn。不要实现开放式聊天 Agent。改动以可核对 Excel（值/页码/摘录/置信度）与黄金答案 eval 为准。
